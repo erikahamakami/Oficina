@@ -15,10 +15,13 @@ app.get('/message', (req, res) => {
   res.send('hello world!');
 })
 
-app.post('/post', (req,res) => {
+app.post('/postCadastro', (req,res) => {
   const post = new Post({
     Nome: req.body.Nome,
-    Telefone: req.body.Telefone
+    Email: req.body.Email,
+    Telefone: req.body.Telefone,
+    Endereço: req.body.Endereço,
+    Senha: req.body.Senha
   })
 
   post.save()
@@ -38,3 +41,4 @@ mongoose.connect("mongodb+srv://Luis:oficina@cluster0.q5tyw.mongodb.net/myFirstD
 app.listen(port, () => {console.log("server started on port" + port)});
 
 //GET, PUT, POST, DELETE
+//nao havera delete
