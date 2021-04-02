@@ -9,6 +9,7 @@ body {
   width: 100%;
   height: 80px;
   display: flex;
+  justify-content: space-between;
 }
 .beauty-hair-logo {
   width: 200px;
@@ -23,28 +24,94 @@ body {
   display: flex;
 }
 .cadastrar-entrar {
-  width: 400px;
   height: 100%;
-  right: 0px;
+  float: right;
 }
 .cadastrar-entrar ul li {
   display: inline-block;
-  margin: 24px;
+  margin: 24px 24px 24px 0px;
 }
 .entrar {
-  padding-left: 33px 10px 30px 10px;
+  height: 35px;
+  float: right;
+  border-radius: 8px;
+  background-color: #38023b;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
   font-size: 14px;
 }
-
-/* .cadastrar-entrar
-{
-  width: 200px;
-  height: 100%;
-  position: relative;
-  float: right;
+.entrar a {
+  color: #fff;
 }
-.cadastrar-entrar a
-{
-  padding-top: 33px;
-  padding-bottom: 33px;
-} */
+.criarConta {
+  height: 35px;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #38023b;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+}
+.criarConta a {
+  color: #38023b;
+}
+.container-background {
+  background: #38023b;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+}
+.lista-pesquisa {
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 28px;
+  position: absolute;
+  background: #fff;
+  width: 702px;
+  height: 64px;
+}
+.img-container-background {
+  padding-top: 47.2px;
+  object-fit: contain;
+}
+.lupa {
+  float: left;
+  height: 64px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+}
+.lista-itens {
+  float: left;
+  height: 64px;
+  font-size: 14px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.lista-pesquisa ul {
+  height: 64px;
+}
+.lista-pesquisa ul li {
+  display: inline-block;
+}
+.seta {
+  float: right;
+  height: 64px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
