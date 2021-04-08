@@ -16,15 +16,18 @@ body {
     padding: 74px 114px 74px 114px;
     color: #38023B;
 }
-.container-lateral h1
-{
-    margin: 0 0 30px 0;
-    font-size: 20px;
-}
 .container-lateral p
 {
     font-size: 24px;
     font-weight: bold;
+    margin-top: 74px;
+}
+.beauty-hair-logo a {
+    color: #38023b;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    display: flex;
+    float: left;
 }
 .container-login
 {
