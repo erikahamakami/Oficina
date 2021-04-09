@@ -1,5 +1,3 @@
-
-
 var btn = document.querySelector('#btn');
 
 var nome = document.getElementById("nome_completo").value;

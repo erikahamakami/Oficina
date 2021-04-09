@@ -7,9 +7,10 @@ const port = 3000;
 const mongoose = require('mongoose');
 const Post = require('../back/Models/schema');
 const bodyParser = require('body-parser');
+var cors = require('cors');
 
 app.use(bodyParser.json());
-
+app.use(cors());
 
 app.get('/message', (req, res) => {
   res.send('hello world!');
