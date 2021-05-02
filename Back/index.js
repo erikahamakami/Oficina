@@ -5,19 +5,27 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const mongoose = require('mongoose');
-const Post = require('../back/Models/schema');
+const dataSchema = require('../back/Models/schema');
 const bodyParser = require('body-parser');
 var cors = require('cors');
+
 
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/message', (req, res) => {
-  res.send('hello world!');
-})
+app.get('/getPrestador',function(req,res){
+  dataSchema.find(function(err,prestadores){
+   if(err){
+     console.log(err)
+     }  
+   else{
+     res.send(prestadores)
+   }
+  })
+ })
 
 app.post('/postCadastro', (req,res) => {
-  const post = new Post({
+  const post = new dataSchema({
     Nome: req.body.Nome,
     Email: req.body.Email,
     Telefone: req.body.Telefone,
