@@ -115,3 +115,29 @@ body {
   padding-left: 32px;
   padding-right: 32px;
 }
+.prestador {
+  height: 248px;
+  margin-bottom: 85px;
+  background-color: #F0F0F0;
+}
+.container_prestador {
+  margin: 0 auto;
+  width: 1266px;
+  padding: 0px;
+  position: relative;
+}
+.container_prestador p{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 24px;
+}
+.barra_especialidade {
+  border-radius: 15px 15px 0 0;
+  width: 402px;
+  height: 39px;
+  background-color: #38023B;
+}
+.avatar {
+  margin-left: 20px;
+  margin-top: 20px;
+}
