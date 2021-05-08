@@ -57,6 +57,11 @@ a {
   float: left;
   font-size: 14px;
 }
+.checkbox {
+  width: 24px;
+  font-size: 14px;
+  height: 16px;
+}
 .input-botao {
   text-align: center;
   margin-top: 22px;
