@@ -8,13 +8,13 @@ var senha = document.getElementById("criar_senha").value;
 var cidade = document.getElementById("cidade").value;
 var nome_comercial = document.getElementById("nome_comercial").value;
 var especialidade = document.getElementById("especialidade").value;
-var estrelas = 3;
-// adicionar comercial, especialidade e cidade
+var estrelas = 3; //por padrão
+
 
 btn.addEventListener("click", function (){
 console.log('dentro do event listener');
   axios.post('http://localhost:3000/postCadastro',{
-    // adicionar comercial, especialidade e cidade
+
     Nome: nome,
     Comercial: nome_comercial,
     Especialidade: especialidade,
