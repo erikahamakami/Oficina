@@ -31,9 +31,13 @@ body {
   padding: 80px 255px 80px 255px;
 }
 .header-cadastro h1 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
+}
+.header-cadastro p {
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 label {
   display: block;
@@ -80,6 +84,7 @@ a {
 .botao-cadastrar {
   background-color: #55917f;
   color: #fff;
+  margin-bottom: 45px;
 }
 button {
   width: 416px;
@@ -92,3 +97,9 @@ button {
   border: none;
   background-color: #f0f0f0;
 }
+.prestador {
+  float: right;
+  font-size: 13px;
+  color: #4f3cc9;
+}
+
