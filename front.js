@@ -13,7 +13,7 @@ var estrelas = 3; //por padrão
 
 btn.addEventListener("click", function (){
 console.log('dentro do event listener');
-  axios.post('http://localhost:3333/postCadastro',{
+  axios.post('http://localhost:3000/postCadastro',{
 
     Nome: nome,
     Comercial: nome_comercial,
