@@ -3,7 +3,7 @@ require('dotenv').config({ path: path.resolve(__dirname, 'back\.env') });
 
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3333;
 const mongoose = require('mongoose');
 const dataSchema = require('../back/Models/schema');
 const bodyParser = require('body-parser');
