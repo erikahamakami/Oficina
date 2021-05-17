@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+.main-container {
+    width: 100%;
+    height: 1040px;
+    display: inline-block;
+}
+.barra-inicial {
+    height: 80px;
+    width: 100%;
+}
+.barra-inicial p {
+    margin: 26px 24px 26px 24px;
+    font-size: 24px;
+    color: #38023B;
+    display: inline-block;
+}
+.user-img {
+    float: right;
+    margin: 17px 24px 17px 24px;
+}
+.container-lateral {
+    width: 514px;
+    height: 100%;
+    background-color: #38023B;
+    float: left;
+    padding: 50px 114px 50px 114px;
+    color: #9882AC;
+}
+.container-lateral p {
+    font-size: 24px;
+    font-weight: bold;
+}
+.container-profissional {
+    display: flex;
+    padding: 50px 80px 50px 80px;
+}
+.header-profissional h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+.divisor {
+    height: 2px;
+    width: 200px;
+    margin-bottom: 8px;
+    background-color: #E5E5E5;
+}
+.container-perfil {
+    width: 640px;
+    height: 516px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.container-titulo {
+    width: 100%;
+    height: 39px;
+    display: flex;
+    padding: 9px 40px 9px 40px;
+    background-color: #38023B;
+    border-radius: 15px 15px 0px 0;
+}
+.container-titulo p {
+    font-size: 18px; 
+    color: #ffffff;  
+}
+.rede-social {
+    margin-left: 10px;
+    color: #ffffff;
+}
