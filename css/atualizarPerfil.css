@@ -8,120 +8,141 @@ body {
   display: inline-block;
 }
 .barra-inicial {
-    height: 80px;
-    width: 100%;
+  height: 80px;
+  width: 100%;
 }
 .barra-inicial p {
-    margin: 26px 24px 26px 24px;
-    font-size: 24px;
-    color: #38023B;
-    display: inline-block;
+  margin: 26px 24px 26px 24px;
+  font-size: 24px;
+  color: #38023B;
+  display: inline-block;
 }
 .user-img {
-    float: right;
-    margin: 17px 24px 17px 24px;
+  float: right;
+  margin: 17px 24px 17px 24px;
 }
 .container-lateral {
   width: 514px;
   height: 100%;
   background-color: #38023B;
   float: left;
-  padding: 74px 114px 74px 114px;
+  padding: 50px 114px 50px 114px;
   color: #9882AC;
 }
 .container-lateral p {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 74px;
 }
-.beauty-hair-logo a {
-  color: #9882AC;
-  font-size: 20px;
-  margin: 0 0 30px 0;
+.container-cadastro {
+  display: flex;
+  padding: 50px 80px 50px 80px;
+}
+.header-cadastro h1 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.divisor {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 8px;
+  background-color: #E5E5E5;
+}
+.header-cadastro p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.form-campo {
+  width: 650px;
+  display: flex;
+}
+label {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 14px 0 4px;
+}
+input {
+  width: 416px;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+}
+a {
+  color: #4f3cc9;
+  float: left;
+  font-size: 14px;
+}
+select {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  padding: 10px 16px;
+  margin-top: 36px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+}
+.campo_nome {
+  width: 100%;
+  height: 80px;
   display: flex;
   float: left;
 }
-.container-cadastro {
-    display: flex;
-    padding: 50px 80px 50px 80px;
-  }
-  .header-cadastro h1 {
-    margin-bottom: 8px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .divisor {
-      height: 2px;
-      width: 100%;
-      margin-bottom: 8px;
-      background-color: #E5E5E5;
-      
-  }
-  .header-cadastro p {
-    font-size: 13px;
-    margin-bottom: 20px;
-  }
-  label {
-    display: block;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 14px 0 4px;
-  }
-  input {
-    width: 416px;
-    font-size: 14px;
-    box-sizing: border-box;
-    height: 40px;
-    padding: 10px 16px;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    background-color: #f0f0f0;
-  }
-  a {
-    color: #4f3cc9;
-    float: left;
-    font-size: 14px;
-  }
-  .checkbox {
-    width: 24px;
-    font-size: 14px;
-    height: 16px;
-  }
-  .input-botao {
-    text-align: center;
-    margin-top: 22px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    width: 208px;
-  }
-  .botao-entrar {
-    background-color: #fff;
-    color: #38023B;
-  }
-  .botao-atualizar {
-    background-color: #38023B;
-    color: #fff;
-    margin-bottom: 45px;
-    float: right;
-  }
-  button {
-    width: 416px;
-    font-size: 14px;
-    box-sizing: border-box;
-    height: 40px;
-    padding: 10px 16px;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    background-color: #f0f0f0;
-  }
-  .prestador {
-    float: right;
-    font-size: 13px;
-    color: #4f3cc9;
-  }
+.nome_completo {
+  width: 416px;
+  margin-right: 34px;
+}
+.eu_sou {
+  width: 200px;
+  float: left;
+}
+.checkbox {
+  width: 24px;
+  font-size: 14px;
+  height: 16px;
+}
+.campo_esquerdo {
+  width: 416px;
+  height: 100%;
+  float: left;
+}
+.campo_direito {
+  width: 200px;
+  height: 100%;
+  float: right;
+  margin-bottom: 75px;
+}
+.campo_direito input{
+  width: 200px;
+}
+.campo_direito_tel {
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+.campo_direito_tel input{
+  width: 200px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  margin-top: 45px;
+  padding: 10px 16px;
+  float: right;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  background-color: #38023B;
+  color: #fff;
+}

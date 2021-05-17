@@ -21,9 +21,6 @@
 
         </div>
         <div class="container-lateral">
-            <div class="beauty-hair-logo">
-                <a href="index.html">iBeauty</a>
-            </div>
             <p>Sua beleza sem sair de casa 💇🏻‍♀️💇🏻‍♂️</p>
         </div>
         <div class="container-cadastro">
@@ -34,27 +31,73 @@
                 <form action="/postCadastro" method="post">
                     <div class="form-campo">
                         <fieldset>
-                            <label for="nome_completo">Nome Completo</label>
-                            <input type="text" id="nome_completo" />
-                            <label for="endereço">Endereço</label>
-                            <input type="text" id="endereço" />
-                            <label for="bairro">Bairro</label>
-                            <input type="text" id="bairro" />
-                            <label for="cidade">Cidade</label>
-                            <input type="text" id="cidade" />
-                            <label for="email">E-mail</label>
-                            <input type="text" id="email" />
-                            <label for="whatsapp">WhatsApp</label>
-                            <input type="number" id="whatsapp" />
-                            <label for="tel_opcional">Telefone opcional</label>
-                            <input type="number" id="tel_opcional" />
-                            <label for="nova_senha">Nova senha</label>
-                            <input type="password" id="nova_senha" />
-                            <label for="confirma_senha">Confirmar senha</label>
-                            <input type="password" id="confirma_-senha" />
+                            <div class="campo_nome">
+                                <div class="nome_completo">
+                                    <label for="nome_completo">Nome Completo</label>
+                                    <input type="text" id="nome_completo" />
+                                </div>
+                                <div class="eu_sou">
+                                    <label for="eu_sou">Eu sou</label>
+                                    <input class="checkbox"type="checkbox" id="cliente"/>Cliente<br>
+                                    <input class="checkbox" type="checkbox" id="profissional"/>Profissional<br>
+                                </div>       
+                            </div>
+                            <div class="campo_esquerdo">
+                                <label for="endereço">Endereço</label>
+                                <input type="text" id="endereço" />
+                                <label for="bairro">Bairro</label>
+                                <input type="text" id="bairro" />
+                                <label for="cidade">Cidade</label>
+                                <input type="text" id="cidade" />
+                                <label for="email">E-mail</label>
+                                <input type="text" id="email" />
+                                <label for="whatsapp">WhatsApp</label>
+                                <input type="number" id="whatsapp" placeholder="(DDD) xxxx-xxxx" />
+                                <label for="nova_senha">Nova senha</label>
+                                <input type="password" id="nova_senha" placeholder="3+ characters"/>
+                            </div>
+                            <div class="campo_direito">
+                                <label for="numero_casa">Número</label>
+                                <input type="number" id="numero_casa" />
+                                <label for="complemento">Complemento</label>
+                                <input type="text" id="complemento" />
+                                <select>
+                                    <option>AC</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                   </select>
+                            </div>
+                            <div class="campo_direito_tel">
+                                <label for="tel_opcional">Telefone opcional</label>
+                                <input type="number" id="tel_opcional" placeholder="(DDD) xxxx-xxxx"/>
+                                <label for="confirma_senha">Confirmar senha</label>
+                                <input type="password" id="confirma_-senha" />
+                            </div>
                         </fieldset>
-                        <button id="btn" class="botao-atualizar input-botao" type="button">Atualizar Perfil</button>
                     </div>
+                    <button id="btn" type="button">Atualizar Perfil</button>
                 </form>
             </div>
         </div>
