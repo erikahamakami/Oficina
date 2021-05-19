@@ -45,13 +45,13 @@ body {
 .divisor {
     height: 2px;
     width: 200px;
-    margin-bottom: 8px;
+    margin-bottom: 43px;
     background-color: #E5E5E5;
 }
 .container-perfil {
     width: 640px;
-    height: 516px;
-    background-color: aquamarine;
+    height: 560px;
+    background-color: #F0F0F0;
     border-radius: 15px;
 }
 .container-titulo {
@@ -63,10 +63,62 @@ body {
     border-radius: 15px 15px 0px 0;
 }
 .container-titulo p {
+    width: 500px;
     font-size: 18px; 
-    color: #ffffff;  
+    color: #ffffff; 
 }
-.rede-social {
+.container-titulo img {
+    float: right;
     margin-left: 10px;
-    color: #ffffff;
+}
+.foto-perfil {
+    display: inline-block;
+    width: 114px;
+    height: 114px;
+    background-color: #9882AC;
+    margin: 38px 54px 30px 32px;
+    border-radius: 10px;
+}
+.lista-profissional {
+    width: 400px;
+    margin-top: 60px;
+    margin-right: 32px;
+    float: right;
+}
+.lista-profissional ul li {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.descrição {
+    width: 640px;
+    float: left;
+    margin-left: 32px;
+}
+.descrição p {
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.divisor-descrição {
+    height: 2px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #C4C4C4;
+}
+.texto-descrição {
+    width: 576px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C4C4C4;
+}
+.fotos {
+    display: inline-block;
+    width: 576px;
+    height: 135px;
+    margin-top: 32px;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+
 }
