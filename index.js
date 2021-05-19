@@ -1,4 +1,4 @@
-axios.get('http://localhost:3000/getPrestador')
+axios.get('http://localhost:8888/getPrestador')
 .then(function(response)
 {
     var lista1  = document.getElementById("serv1").innerHTML;
