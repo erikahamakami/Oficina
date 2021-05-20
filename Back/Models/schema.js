@@ -9,7 +9,8 @@ const PostSchema = mongoose.Schema({
   Cidade: String,
   Endereço: String,
   Senha: String,
-  Estrelas: Number
+  Estrelas: Number,
+  Categoria: String
   // Nome comercial especialidade cidade estrelas
 });
 

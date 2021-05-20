@@ -23,23 +23,28 @@
                    <form action="/login.html" method="post">
                        <div class="form-campo">
                            <fieldset>
-                               <label for="email">E-mail</label>
-                               <input type="text" id="email"/>
+                               <label for="email" >E-mail</label>
+                               <input type="text" id="email" onchange="salvaEmail()"/>
                            </fieldset>
                            <fieldset>
                                <label for="senha">
                                    Senha
                                    <a href="esqueceusenha.html">Esqueceu sua senha?</a>
                                 </label>
-                               <input type="password" id="senha"/>
+                               <input type="text" id="senha" onchange="salvaEmail()"/>
                            </fieldset> 
                            <a class="botao-criar-conta input-botao" href="tipoCadastro.html">Criar Conta</a>
-                           <input class="botao-login input-botao"type="submit" value="Entrar"></input>
-                       </div>  
+                           <button id="button_login" class="botao-login input-botao" >Entrar</button>
+                           <!-- <input id="login_btn" class="botao-login input-botao"type="submit" value="Entrar"></input> -->
+                           
+                        </div>  
                    <form>
                 </div>
             </div>
     </div>
     
 </body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="login.js"></script>
+
 </html>

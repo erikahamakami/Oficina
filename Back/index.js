@@ -22,9 +22,10 @@ app.get('/getPrestador',function(req,res){
      res.send(prestadores)
    }
   })
- })
- 
- app.post('/postCadastro', (req,res) => {
+})
+
+
+app.post('/postCadastro', (req,res) => {
   const post = new dataSchema({
     Nome: req.body.Nome,
     Comercial: req.body.Comercial,
@@ -34,7 +35,8 @@ app.get('/getPrestador',function(req,res){
     Cidade: req.body.Cidade,
     Endereço: req.body.Endereço,
     Senha: req.body.Senha,
-    Estrelas: req.body.Estrelas
+    Estrelas: req.body.Estrelas,
+    Categoria: req.body.Categoria
   })
 
   post.save()
