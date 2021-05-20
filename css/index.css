@@ -132,17 +132,40 @@ body {
   font-size: 24px;
 }
 .barra_especialidade {
+  display: inline-block;
   border-radius: 15px 15px 0 0;
   width: 402px;
   height: 39px;
   background-color: #38023B;
+  color: #fff;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.barra_especialidade img {
+  padding-right: 9px;
+  object-fit: contain;
+  float: left;
+}
+.barra_especialidade p {
+  width: 300px;
 }
 .avatar {
+  width: 150px;
+  height: 170px;
+  display: inline-block;
   margin-left: 20px;
   margin-top: 20px;
 }
 .infos {
-  width: 180px;
+  margin-top: 41px;
+  width: 200px;
   height: 103px;
-  margin-right: 54px;
+  margin-right: 20px;
+  float: right;
+}
+.infos ul li {
+  color: #38023B;
+  font-size: 18px;
+  padding-bottom: 9px;
 }
