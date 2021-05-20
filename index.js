@@ -1,3 +1,19 @@
+function online()
+{
+    if(localStorage.getItem("Online") == "true")
+    {
+        console.log(1)
+        document.getElementById("cadastrar-entrar").style.display = "none";
+        document.getElementById("logado").style.display = "flex";
+        var user = document.createElement("p");
+        user = document.getElementById("logado").innerHTML;
+        user = localStorage.getItem("Email");
+        document.getElementById("logado").innerHTML = "Bem vindo(a), "+user+"!"; 
+    } 
+}
+
+online()
+
 axios.get('http://localhost:8888/getPrestador')
 .then(function(response)
 {
@@ -54,7 +70,7 @@ axios.get('http://localhost:8888/getPrestador')
         lista6 = lista6 +"<li>"+response.data[5].Nome+"</li>";
         lista6 = lista6 +"<li>"+response.data[5].Cidade+", "+response.data[5].Estado+"</li>";
         lista6 = lista6 +"<li>"+"Estrelas: "+response.data[5].Estrelas+"</li>";
-        document.getElementById("serv6").innerHTML = lista6; 
+        document.getElementById("serv6").innerHTML = lista6;
 })
 function perfil(number)
 {
