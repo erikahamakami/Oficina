@@ -12,9 +12,20 @@ async function chamaGet(){
                 console.log(response.data[i].Senha)
                 console.log("email e senha validos")
                 localStorage.setItem("Online", true)
-                window.location.href = "index.html";
+                window.location.href = "index.html"
+                break
+                }
+                else{
+                    localStorage.setItem("Online", false)
                 }
             }
+            else{
+                localStorage.setItem("Online", false)
+            }
+        }
+        if (localStorage.getItem("Online") != "true")
+        {
+            alert("Dados inválidos")
         }
     })
 }
